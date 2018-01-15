@@ -18,3 +18,11 @@ mkdir klonowanie
 cd klonowanie
 git clone https://github.com/elois/Test-Ruby
 7.Rozwi¹zywanie zadañ Ruby.
+8.Dodanie do znalengo repozytorium o nazwie kolokwium
+git status
+git add KrzsyztofNowicki.txt
+git add '*.rb'
+git commit -m "Dodawanie zadan z kolokwium"
+git status
+git remote add origin https://github.com/azskrzysiek1/kolokwium.git
+git push -u origin master
